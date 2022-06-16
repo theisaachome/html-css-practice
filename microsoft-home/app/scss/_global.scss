@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;
+    color: #000;
+    font-size: .9375rem;
+    line-height: 1.5;
+}
+.container{
+    width: 90%; // what we want for normal
+    max-width: 68.75rem; // setup for bigger screen and not to go over wide.
+    margin-inline: auto;
+}

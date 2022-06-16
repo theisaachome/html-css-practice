@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #262626;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff;
+  color: #000;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.container {
+  width: 90%;
+  max-width: 68.75rem;
+  margin-inline: auto;
+}
+
+.navbar {
+  height: 3.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8125rem 0;
+  font-size: 0.8125rem;
+}
+.navbar__logo {
+  width: 6.875rem;
+}
+.navbar__menu {
+  display: flex;
+  flex: 1;
+  margin-left: 1.25rem;
+}
+.navbar__menu--item {
+  padding: 0 0.625rem;
+  cursor: pointer;
+}
+.navbar__menu--item a {
+  padding-bottom: 0.125rem;
+}
+.navbar__menu--item a:hover {
+  border-bottom: 2px solid #262662;
+}
+.navbar__menu--right {
+  display: flex;
+}
+.navbar__menu--right .navbar__menu--item a:hover {
+  border: none;
+}/*# sourceMappingURL=styles.css.map */

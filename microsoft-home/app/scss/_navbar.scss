@@ -1,38 +1,35 @@
-
-.navbar{
-    height: 3.75rem;
+.navbar {
+  height: 3.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8125rem 0;
+  font-size: 0.8125rem;
+  &__logo {
+    width: 6.875rem;
+  }
+  &__menu {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: .8125rem 0;
-    font-size: .8125rem;
-    &__logo{
-        width: 6.875rem;
+    flex: 1;
+    margin-left: 1.25rem;
+  }
+  &__menu--item {
+    padding: 0 0.625rem;
+    cursor: pointer;
+    a {
+      padding-bottom: 0.125rem;
+      color: #262626;
+      &:hover {
+        border-bottom: 2px solid #262662;
+      }
     }
-    &__menu{
-        display: flex;
-        flex: 1;
-        margin-left: 1.25rem;
+  }
+  &__menu--right {
+    display: flex;
+    .navbar__menu--item a {
+      &:hover {
+        border: none;
+      }
     }
-    &__menu--item{
-        padding: 0 .625rem;
-        cursor: pointer;
-        a{
-            padding-bottom: .125rem;
-            &:hover{
-                border-bottom: 2px solid #262662;
-            }
-        }
-       
-    }
-    &__menu--right{
-        display: flex;
-        .navbar__menu--item a{
-            &:hover{
-                border: none;
-            }
-        }
-
-    }
-
+  }
 }

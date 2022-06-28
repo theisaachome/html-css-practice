@@ -13,3 +13,32 @@ body{
     max-width: 68.75rem; // setup for bigger screen and not to go over wide.
     margin-inline: auto;
 }
+.dark{
+    color: #fff;
+    .btn{
+        background-color: #fff;
+        color: #333;
+    }
+}
+h1,
+h2,
+h3{
+    margin-bottom: 1.5rem;
+}
+p{
+    margin-bottom: 1.5rem;
+}
+
+.fa-shopping-cart{
+    font-size: 1.25rem;
+}
+
+
+.follow{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    *{
+        margin-right: .3125rem;
+    }
+}

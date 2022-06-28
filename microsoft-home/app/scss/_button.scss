@@ -8,7 +8,15 @@
     font-weight: bold;
     font-size: 15px;
     color:#fff;
+    transition: margin-left .4ms ease ;
+    i{
+        margin-left: 4px;
+    }
     &:hover{
         opacity: 0.9;
+        
+        i {
+            margin-left: 10px;
+        }
     }
 }

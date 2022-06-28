@@ -1,0 +1,19 @@
+.xbox {
+  width: 100%;
+  height: 350px;
+  background: url('https://i.ibb.co/tBJGPD9/xbox.png') no-repeat center center/cover;
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  &__content{
+    width: 40%;
+    padding: 32px;
+  }
+  &__titles{
+    text-align: center;
+  }
+  &__description{
+    margin: .625rem 0 1.25rem;
+  }
+}
